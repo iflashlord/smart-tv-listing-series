@@ -66,4 +66,4 @@ minify utils/scrollbar.js > dist/utils/scrollbar.js
 
 find dist/ -name ".DS_Store" -delete
 
-serve -s dist/
+#serve -s dist/
