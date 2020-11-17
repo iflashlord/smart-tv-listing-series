@@ -11,7 +11,9 @@
         "start": "serve -s ./dist",
         "test": "jest",
         "doc": "jsdoc -c conf.json ./ -r",
-        "build": "bash build.sh"
+        "build": "bash build.sh",
+        "heroku-publish": "git add *; git commit -m \"Fast Publish!\"; git push heroku master;"
+
     },
     "keywords": [
         "smart-tv",

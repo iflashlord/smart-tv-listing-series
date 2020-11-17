@@ -81,8 +81,6 @@ mainView.prototype.remove = function() {
     this.page.innerHTML = ''
 }
 
-// module.exports = mainView;
-
 exports._test = {
     mainView
 }

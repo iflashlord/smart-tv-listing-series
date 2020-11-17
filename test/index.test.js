@@ -9,14 +9,14 @@ const html = fs.readFileSync(path.resolve(__dirname, '../index.html'), 'utf8');
 
 let dom
 let container
-var app = require('../features/main/mainView.js');
+let _mainView = require('../features/main/mainView.js');
 
 describe('index.html', () => {
     beforeEach(() => {
         dom = new JSDOM(html, { runScripts: 'dangerously' })
         container = dom.window.document.body
 
-        console.log(new app._test.mainView())
+        console.log(new _mainView._test.mainView())
     })
 
     it('renders a logo-viaplay element', () => {
