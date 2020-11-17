@@ -1,0 +1,1180 @@
+{
+  "type": "page",
+  "pageType": "category",
+  "sectionId": "35bb8a90-d40e-11e2-8b8b-0800200c9a66",
+  "title": "TV-serier online - Streama bra serier på nätet el ladda ned",
+  "description": "Viaplay erbjuder serier på nätet för hela familjen. Streama bra TV-serier online i hög kvalitet eller ladda ned till tablet eller mobil!",
+  "styles": [
+    "category"
+  ],
+  "_links": {
+    "curies": [
+      {
+        "name": "viaplay",
+        "href": "http://docs.viaplay.tv/rel/{rel}",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://content.viaplay.se/pc-se/serier/samtliga?&pageNumber=8&productsPerPage=10"
+    },
+    "viaplay:root": {
+      "id": "root",
+      "title": "Start",
+      "href": "https://content.viaplay.se/pc-se"
+    },
+    "viaplay:editorial": {
+      "id": "editorial",
+      "href": "https://content.viaplay.se/pc-se/editorial"
+    },
+    "viaplay:socket": {
+      "id": "socket",
+      "href": "https://socket.viaplay.se/"
+    },
+    "viaplay:socket2": {
+      "id": "socket",
+      "href": "https://socket2.viaplay.se/"
+    },
+    "viaplay:search": {
+      "title": "Sök",
+      "href": "https://content.viaplay.se/pc-se/search{?query}",
+      "templated": true
+    },
+    "viaplay:autocomplete": {
+      "title": "autocomplete",
+      "href": "https://content.viaplay.se/pc-se/autocomplete{?query}",
+      "templated": true
+    },
+    "viaplay:byGuid": {
+      "title": "byGuid",
+      "href": "https://content.viaplay.se/pc-se/byguid/{guid}{?returnFirstEpisode,seasonId,tveProgram}",
+      "templated": true
+    },
+    "viaplay:searchSuggestions": {
+      "title": "byGuids",
+      "href": "https://content.viaplay.se/pc-se/search-suggestions/{guids}",
+      "templated": true
+    },
+    "viaplay:validateSession": {
+      "id": "validateSession",
+      "href": "https://login.viaplay.se/api/validateSession/v1{?session}",
+      "templated": true
+    },
+    "viaplay:translations": {
+      "id": "translations",
+      "href": "https://cms-service.viaplay.com/translations/pc",
+      "templated": false
+    },
+    "viaplay:technotifier": {
+      "id": "technotifier",
+      "href": "https://viaplay.mtg-api.com/tech-notifications/v1/viaplay/sv-se/pc"
+    },
+    "viaplay:sections": [
+      {
+        "id": "35bb8a90-d40e-11e2-8b8b-0800200c9a66",
+        "title": "Serier",
+        "href": "https://content.viaplay.se/pc-se/serier",
+        "type": "vod",
+        "name": "series",
+        "active": true
+      },
+      {
+        "id": "2037b330-d411-11e2-8b8b-0800200c9a66",
+        "title": "Film",
+        "href": "https://content.viaplay.se/pc-se/film",
+        "type": "vod",
+        "name": "movie"
+      },
+      {
+        "id": "8e5febf0-d4e0-11e2-8b8b-0800200c9a66",
+        "title": "Sport",
+        "href": "https://content.viaplay.se/pc-se/sport",
+        "type": "sportPerDay",
+        "name": "sport"
+      },
+      {
+        "id": "1a6a2ec0-d4e2-11e2-8b8b-0800200c9a66",
+        "title": "Barn",
+        "href": "https://content.viaplay.se/pc-se/barn",
+        "type": "children",
+        "name": "kids"
+      },
+      {
+        "id": "85561ec0-d4e1-11e2-8b8b-0800200c9a66",
+        "title": "Hyr & köp",
+        "href": "https://content.viaplay.se/pc-se/store",
+        "type": "vod",
+        "name": "rental"
+      },
+      {
+        "id": "b35d0a33-ec9d-4e4c-9846-92addb9ec00d",
+        "title": "Prova Viaplay",
+        "href": "https://content.viaplay.se/pc-se/package",
+        "type": "editorial",
+        "name": "b35d0a33-ec9d-4e4c-9846-92addb9ec00d"
+      }
+    ],
+    "viaplay:geolocation": {
+      "href": "https://viaplay.mtg-api.com/geolocation/viaplay/portability{?ip,country}"
+    },
+    "viaplay:retrieveUserInformation": {
+      "id": "retrieveUserInformation",
+      "href": "https://viaplay.mtg-api.com/user-information/{brand}/users/{userId}",
+      "method": "GET",
+      "templated": true
+    },
+    "viaplay:localizationLanguages": {
+      "id": "localizationLanguages",
+      "href": "https://viaplay.mtg-api.com/localization/languages/se",
+      "method": "GET"
+    },
+    "viaplay:login": {
+      "title": "Login",
+      "href": "https://login.viaplay.se/api/login/v1?deviceKey=pc-se&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Fserier%2Fsamtliga%3F%26pageNumber%3D8%26productsPerPage%3D10{&username,password,persistent,forward}",
+      "templated": true
+    },
+    "viaplay:facebookLogin": {
+      "title": "Facebook Login",
+      "href": "https://login.viaplay.se/api/facebook/login?deviceKey=pc-se&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Fserier%2Fsamtliga%3F%26pageNumber%3D8%26productsPerPage%3D10{&code,token,persistent}",
+      "templated": true
+    },
+    "viaplay:tokenLogin": {
+      "href": "https://login.viaplay.se/api/tokenLogin?deviceKey=pc-se{&accessToken,refreshToken,persistent,returnurl}",
+      "method": "GET",
+      "templated": true
+    },
+    "viaplay:tokenRefresh": {
+      "href": "https://login.viaplay.se/api/tokenRefresh/{userId}?deviceKey=pc-se",
+      "method": "POST",
+      "templated": true
+    },
+    "viaplay:setParentalControl": {
+      "id": "setParentalControl",
+      "href": "https://viaplay.mtg-api.com/identity/{brand}/users/{userId}/parental-control",
+      "method": "POST",
+      "templated": true
+    },
+    "viaplay:userPwdUpdate": {
+      "id": "userPwdUpdate",
+      "href": "https://viaplay.mtg-api.com/identity/{brand}/users/{userId}/password",
+      "method": "PUT",
+      "templated": true
+    },
+    "viaplay:userPwdLoginRequest": {
+      "id": "userPwdLoginRequest",
+      "href": "https://viaplay.mtg-api.com/identity/{brand}/auth/pwd/sessions",
+      "method": "POST",
+      "templated": true
+    },
+    "viaplay:passwordToken": {
+      "id": "createPasswordToken",
+      "href": "https://viaplay.mtg-api.com/identity/viaplay/emails/{email}/user/password-token",
+      "method": "POST",
+      "templated": true
+    },
+    "viaplay:resetPassword": {
+      "id": "resetPassword",
+      "href": "https://viaplay.mtg-api.com/identity/viaplay/passwords",
+      "method": "PUT"
+    },
+    "viaplay:retrieveUserEmail": {
+      "id": "retrieveUserEmail",
+      "href": "https://viaplay.mtg-api.com/identity/{brand}/reset-pwd-tokens/{+resetPwdToken}/user/email",
+      "method": "GET",
+      "templated": true
+    },
+    "viaplay:universalLinkResolver": {
+      "id": "universalLinkResolver",
+      "href": "https://content.viaplay.se/pc-se/universalLink/{universalLink}",
+      "method": "GET",
+      "templated": true
+    },
+    "viaplay:userExperiments": {
+      "id": "userExperiments",
+      "href": "https://viaplay.mtg-api.com/experiments/users/{userId}",
+      "method": "GET",
+      "templated": true
+    },
+    "viaplay:tracking": {
+      "id": "tracking",
+      "href": "https://cronos-events.mtg-api.com/cronos-events/event/{brand}/pc-se/{clientVersion}/{sequenceNo}/{eventType}{?sessionId}",
+      "method": "POST",
+      "templated": true
+    },
+    "viaplay:categoryFilters": [
+      {
+        "title": "Alla serier",
+        "href": "https://content.viaplay.se/pc-se/serier/samtliga",
+        "templated": false,
+        "tagId": "0",
+        "type": "vod",
+        "active": true
+      },
+      {
+        "title": "Action",
+        "href": "https://content.viaplay.se/pc-se/serier/action",
+        "group": {
+          "title": "Kategorier",
+          "position": 1
+        },
+        "templated": false,
+        "tagId": "99879986",
+        "type": "vod"
+      },
+      {
+        "title": "Animation",
+        "href": "https://content.viaplay.se/pc-se/serier/animation",
+        "group": {
+          "title": "Kategorier",
+          "position": 1
+        },
+        "templated": false,
+        "tagId": "22740520196",
+        "type": "vod"
+      },
+      {
+        "title": "Barnserier",
+        "href": "https://content.viaplay.se/pc-se/serier/barnserier",
+        "group": {
+          "title": "Kategorier",
+          "position": 1
+        },
+        "templated": false,
+        "tagId": "0",
+        "type": "vod"
+      },
+      {
+        "title": "Dokumentärserier",
+        "href": "https://content.viaplay.se/pc-se/serier/dokumentarserier",
+        "group": {
+          "title": "Kategorier",
+          "position": 1
+        },
+        "templated": false,
+        "tagId": "127528063",
+        "categoryType": "documentary_series",
+        "type": "vod"
+      },
+      {
+        "title": "Drama",
+        "href": "https://content.viaplay.se/pc-se/serier/drama",
+        "group": {
+          "title": "Kategorier",
+          "position": 1
+        },
+        "templated": false,
+        "tagId": "98856440",
+        "type": "vod"
+      },
+      {
+        "title": "Komedi",
+        "href": "https://content.viaplay.se/pc-se/serier/komedi",
+        "group": {
+          "title": "Kategorier",
+          "position": 1
+        },
+        "templated": false,
+        "tagId": "99368193",
+        "type": "vod"
+      },
+      {
+        "title": "Kriminaldrama",
+        "href": "https://content.viaplay.se/pc-se/serier/kriminaldrama",
+        "group": {
+          "title": "Kategorier",
+          "position": 1
+        },
+        "templated": false,
+        "tagId": "99368197",
+        "type": "vod"
+      },
+      {
+        "title": "Livsstil",
+        "href": "https://content.viaplay.se/pc-se/serier/livsstil",
+        "group": {
+          "title": "Kategorier",
+          "position": 1
+        },
+        "templated": false,
+        "tagId": "99368226",
+        "type": "vod"
+      },
+      {
+        "title": "Matlagning",
+        "href": "https://content.viaplay.se/pc-se/serier/matlagning",
+        "group": {
+          "title": "Kategorier",
+          "position": 1
+        },
+        "templated": false,
+        "tagId": "108071990",
+        "type": "vod"
+      },
+      {
+        "title": "Reality",
+        "href": "https://content.viaplay.se/pc-se/serier/reality",
+        "group": {
+          "title": "Kategorier",
+          "position": 1
+        },
+        "templated": false,
+        "tagId": "108071975",
+        "type": "vod"
+      },
+      {
+        "title": "Science fiction",
+        "href": "https://content.viaplay.se/pc-se/serier/science-fiction",
+        "group": {
+          "title": "Kategorier",
+          "position": 1
+        },
+        "templated": false,
+        "tagId": "99368202",
+        "type": "vod"
+      },
+      {
+        "title": "Sportdokumentärer",
+        "href": "https://content.viaplay.se/pc-se/serier/sportdokumentarer",
+        "group": {
+          "title": "Kategorier",
+          "position": 1
+        },
+        "templated": false,
+        "tagId": "99368449",
+        "type": "vod"
+      },
+      {
+        "title": "Thriller",
+        "href": "https://content.viaplay.se/pc-se/serier/thriller",
+        "group": {
+          "title": "Kategorier",
+          "position": 1
+        },
+        "templated": false,
+        "tagId": "99368200",
+        "type": "vod"
+      },
+      {
+        "title": "Underhållning",
+        "href": "https://content.viaplay.se/pc-se/serier/underhallning",
+        "group": {
+          "title": "Kategorier",
+          "position": 1
+        },
+        "templated": false,
+        "tagId": "99879970",
+        "type": "vod"
+      },
+      {
+        "title": "Ungdomsserier",
+        "href": "https://content.viaplay.se/pc-se/serier/ungdomsserier",
+        "group": {
+          "title": "Kategorier",
+          "position": 1
+        },
+        "templated": false,
+        "tagId": "100815400432",
+        "type": "vod"
+      },
+      {
+        "title": "Viaplay Originals",
+        "href": "https://content.viaplay.se/pc-se/serier/viaplay-originals",
+        "group": {
+          "title": "Teman",
+          "position": 2
+        },
+        "templated": false,
+        "tagId": "138415656192",
+        "type": "vod"
+      },
+      {
+        "title": "Alla säsonger",
+        "href": "https://content.viaplay.se/pc-se/serier/alla-sasonger",
+        "group": {
+          "title": "Teman",
+          "position": 2
+        },
+        "templated": false,
+        "tagId": "37749288368",
+        "type": "vod"
+      },
+      {
+        "title": "ABC Studios",
+        "href": "https://content.viaplay.se/pc-se/serier/abc-studios",
+        "group": {
+          "title": "Teman",
+          "position": 2
+        },
+        "templated": false,
+        "tagId": "0",
+        "type": "vod"
+      },
+      {
+        "title": "FOX+",
+        "href": "https://content.viaplay.se/pc-se/serier/fox",
+        "group": {
+          "title": "Teman",
+          "position": 2
+        },
+        "templated": false,
+        "tagId": "0",
+        "type": "vod"
+      },
+      {
+        "title": "Svenska serier",
+        "href": "https://content.viaplay.se/pc-se/serier/svenska-serier",
+        "group": {
+          "title": "Teman",
+          "position": 2
+        },
+        "templated": false,
+        "tagId": "138969640347",
+        "type": "vod"
+      },
+      {
+        "title": "National Geographic Now",
+        "href": "https://content.viaplay.se/pc-se/serier/national-geographic",
+        "group": {
+          "title": "Teman",
+          "position": 2
+        },
+        "templated": false,
+        "tagId": "87756840130",
+        "type": "vod"
+      }
+    ],
+    "viaplay:sortings": [
+      {
+        "id": "most_popular",
+        "title": "Populära",
+        "href": "https://content.viaplay.se/pc-se/serier/samtliga?sort=most_popular",
+        "active": true
+      },
+      {
+        "id": "recently_added",
+        "title": "Senast tillagda",
+        "href": "https://content.viaplay.se/pc-se/serier/samtliga?sort=recently_added"
+      },
+      {
+        "id": "highest_ratings",
+        "title": "Högst betyg",
+        "href": "https://content.viaplay.se/pc-se/serier/samtliga?sort=highest_ratings"
+      },
+      {
+        "id": "alphabetical",
+        "title": "A-Ö",
+        "href": "https://content.viaplay.se/pc-se/serier/samtliga?sort=alphabetical{&letter}",
+        "templated": true
+      }
+    ]
+  },
+  "_embedded": {
+    "viaplay:blocks": [
+      {
+        "ablocator": "6dd481845f73b596b7a95456c2d918e0",
+        "id": "6dd481845f73b596b7a95456c2d918e0",
+        "type": "list",
+        "client": {
+          "styles": "landscape",
+          "autoAppend": true,
+          "module": "collection",
+          "template": "collection"
+        },
+        "styles": [
+          "landscape",
+          "list",
+          "grid"
+        ],
+        "title": "Alla serier sorterat på Populära",
+        "totalProductCount": 75,
+        "currentPage": 8,
+        "pageCount": 8,
+        "productsPerPage": 10,
+        "_embedded": {
+          "viaplay:products": [
+            {
+              "type": "series",
+              "publicPath": "vikings",
+              "content": {
+                "images": {
+                  "boxart": {
+                    "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/45/900/1562837673-7f33b26ce55364a0bab3117b32a67525c8626904.jpg?width=199&height=298",
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/45/900/1562837673-7f33b26ce55364a0bab3117b32a67525c8626904.jpg{?width,height}"
+                  },
+                  "landscape": {
+                    "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/45/900/1562837672-ca37d3cfcaa9c99aae715c77154e66605ee53ded.jpg?width=960&height=540",
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/45/900/1562837672-ca37d3cfcaa9c99aae715c77154e66605ee53ded.jpg{?width,height}"
+                  },
+                  "hero169": {
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/45/900/1565091962-2908890b240d9d8f77fe5fb6a25ad0002feb3a90.jpg{?width,height}"
+                  },
+                  "coverart23": {
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/45/900/1562837673-7f33b26ce55364a0bab3117b32a67525c8626904.jpg{?width,height}"
+                  },
+                  "coverart169": {
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/45/900/1562837672-ca37d3cfcaa9c99aae715c77154e66605ee53ded.jpg{?width,height}"
+                  }
+                },
+                "people": {
+                  "actors": [
+                    "Gustaf Skarsgård",
+                    "Katheryn Winnick",
+                    "Alexander Ludwig",
+                    "Travis Fimmel",
+                    "Clive Standen",
+                    "Georgia Hirst",
+                    "Alex Høgh Andersen",
+                    "Jennie Jacques",
+                    "Maude Hirst",
+                    "Jordan Patrick Smith",
+                    "Moe Dunford",
+                    "Alyssa Sutherland"
+                  ],
+                  "participants": [
+                    "Gustaf Skarsgård",
+                    "Katheryn Winnick",
+                    "Alexander Ludwig",
+                    "Travis Fimmel",
+                    "Clive Standen",
+                    "Georgia Hirst",
+                    "Alex Høgh Andersen",
+                    "Jennie Jacques",
+                    "Maude Hirst",
+                    "Jordan Patrick Smith",
+                    "Moe Dunford",
+                    "Alyssa Sutherland"
+                  ]
+                },
+                "parentalRating": "15",
+                "series": {
+                  "title": "Vikings",
+                  "synopsis": "Vi följer den legendariske Ragnar Lothbroks på hans resa. Han var en heroisk viking som hamnade i historieböckerna. En man på gränsen till myt.",
+                  "season": {
+                    "title": "Vikings",
+                    "availability": {
+                      "svod": {
+                        "start": "2020-08-17T22:00:00.000Z",
+                        "end": "2022-08-17T21:59:00.000Z"
+                      }
+                    }
+                  },
+                  "seasons": 5,
+                  "seriesGuid": "series-vikings"
+                },
+                "synopsis": "Vi följer den legendariske Ragnar Lothbroks på hans resa. Han var en heroisk viking som hamnade i historieböckerna. En man på gränsen till myt.",
+                "imdb": {
+                  "id": "tt2306299",
+                  "rating": "8.5",
+                  "votes": "410 561",
+                  "url": "http://www.imdb.com/title/tt2306299?ref_ext_viaplay"
+                },
+                "production": {
+                  "year": 2013
+                }
+              },
+              "user": {
+                "starred": false
+              },
+              "system": {
+                "availability": {
+                  "start": "2019-08-08T22:00:00.000Z",
+                  "end": "2021-07-31T21:59:00.000Z",
+                  "planInfo": {
+                    "isRental": false,
+                    "isPurchase": false
+                  },
+                  "svod": {
+                    "start": "2019-08-08T22:00:00.000Z",
+                    "end": "2021-07-31T21:59:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    }
+                  }
+                },
+                "flags": [],
+                "guid": "series-vikings",
+                "isKids": false
+              },
+              "_links": {
+                "self": {
+                  "title": "Vikings",
+                  "href": "https://content.viaplay.se/pc-se/serier/vikings?partial=true"
+                },
+                "viaplay:page": {
+                  "title": "Vikings",
+                  "href": "https://content.viaplay.se/pc-se/serier/vikings"
+                },
+                "viaplay:templatedPage": {
+                  "title": "Vikings",
+                  "href": "https://content.viaplay.se/{deviceKey}/serier/vikings"
+                },
+                "viaplay:genres": [
+                  {
+                    "title": "Drama",
+                    "tagId": "98856440",
+                    "href": "https://content.viaplay.se/pc-se/serier/drama"
+                  },
+                  {
+                    "title": "Action",
+                    "tagId": "99879986",
+                    "href": "https://content.viaplay.se/pc-se/serier/action"
+                  }
+                ],
+                "viaplay:peopleSearch": {
+                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                  "templated": true
+                },
+                "viaplay:trailerStream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey,availabilityContext,cmaf,cse}&guid=10-5240-C6BC-5903-B8F4-81A3-57EA-Z&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Fserier%2Fsamtliga%3F%26pageNumber%3D8%26productsPerPage%3D10&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Fbyguid%2F10-5240-C6BC-5903-B8F4-81A3-57EA-Z%3FparentProgramGuid%3Dseries-vikings&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Fbyguid%2F10-5240-C6BC-5903-B8F4-81A3-57EA-Z%3FparentProgramGuid%3Dseries-vikings&sectionPath=%2Fserier&defaultAvailabilityContext=svod",
+                  "templated": true
+                },
+                "viaplay:trailerSelf": {
+                  "title": "Vikings",
+                  "href": "https://content.viaplay.se/pc-se/byguid/10-5240-C6BC-5903-B8F4-81A3-57EA-Z?parentProgramGuid=series-vikings&partial=true"
+                }
+              },
+              "notice": {
+                "message": "User must login to view content",
+                "code": 1002,
+                "_links": {
+                  "curies": [
+                    {
+                      "name": "viaplay",
+                      "href": "http://docs.viaplay.tv/rel/{rel}",
+                      "templated": true
+                    }
+                  ],
+                  "viaplay:accountPurchasePackage": {
+                    "href": "/package?recommended=viaplay",
+                    "templated": false,
+                    "redirect": false
+                  }
+                }
+              }
+            },
+            {
+              "type": "series",
+              "publicPath": "bobs-burgers",
+              "content": {
+                "images": {
+                  "boxart": {
+                    "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/613/512/1576071597-cf5f17a84d62b7710a76e93acee70bdb44a20223.jpg?width=199&height=298",
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/613/512/1576071597-cf5f17a84d62b7710a76e93acee70bdb44a20223.jpg{?width,height}"
+                  },
+                  "landscape": {
+                    "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/933/924/BobsBurgers_landscapeFOX.jpg?width=960&height=540",
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/933/924/BobsBurgers_landscapeFOX.jpg{?width,height}"
+                  },
+                  "hero169": {
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/613/512/1576071665-749c0f43d53e6a2165b497de09ce27eee9b94cc2.jpg{?width,height}"
+                  },
+                  "coverart23": {
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/613/512/1576071597-cf5f17a84d62b7710a76e93acee70bdb44a20223.jpg{?width,height}"
+                  },
+                  "coverart169": {
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/933/924/BobsBurgers_landscapeFOX.jpg{?width,height}"
+                  }
+                },
+                "people": {},
+                "parentalRating": "12",
+                "series": {
+                  "title": "Bob's Burgers",
+                  "synopsis": "I denna populära animerade komediserie följer vi Bob Belcher som tillsammans med sin fru och deras tre barn driver restaurangen Bob’s Burger. Restaurangen är familjens sista hopp om att hålla ihop.",
+                  "season": {
+                    "title": "Bob's Burgers",
+                    "availability": {
+                      "svod": {
+                        "start": "2019-12-31T23:00:00.000Z",
+                        "end": "2022-02-28T23:00:00.000Z"
+                      }
+                    }
+                  },
+                  "seasons": 9,
+                  "seriesGuid": "series-bobs-burgers"
+                },
+                "synopsis": "“Bob’s Burgers” följer den underbart skandalösa familjen Belcher, med unika talanger för att förvandla de mest alldagliga situationer till komplett kaos.",
+                "imdb": {
+                  "id": "tt1561755",
+                  "rating": "8.1",
+                  "votes": "63 301",
+                  "url": "http://www.imdb.com/title/tt1561755?ref_ext_viaplay"
+                },
+                "production": {
+                  "year": 2011
+                }
+              },
+              "user": {
+                "starred": false
+              },
+              "system": {
+                "availability": {
+                  "start": "2017-01-31T23:00:00.000Z",
+                  "end": "2021-01-30T23:00:00.000Z",
+                  "planInfo": {
+                    "isRental": false,
+                    "isPurchase": false
+                  },
+                  "svod": {
+                    "start": "2017-01-31T23:00:00.000Z",
+                    "end": "2021-01-30T23:00:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    }
+                  }
+                },
+                "flags": [],
+                "guid": "series-bobs-burgers",
+                "isKids": false
+              },
+              "_links": {
+                "self": {
+                  "title": "Bob's Burgers",
+                  "href": "https://content.viaplay.se/pc-se/serier/bobs-burgers?partial=true"
+                },
+                "viaplay:page": {
+                  "title": "Bob's Burgers",
+                  "href": "https://content.viaplay.se/pc-se/serier/bobs-burgers"
+                },
+                "viaplay:templatedPage": {
+                  "title": "Bob's Burgers",
+                  "href": "https://content.viaplay.se/{deviceKey}/serier/bobs-burgers"
+                },
+                "viaplay:genres": [
+                  {
+                    "title": "Komedi",
+                    "tagId": "99368193",
+                    "href": "https://content.viaplay.se/pc-se/serier/komedi"
+                  },
+                  {
+                    "title": "Animation",
+                    "tagId": "22740520196",
+                    "href": "https://content.viaplay.se/pc-se/serier/animation"
+                  }
+                ],
+                "viaplay:peopleSearch": {
+                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                  "templated": true
+                }
+              },
+              "notice": {
+                "message": "User must login to view content",
+                "code": 1002,
+                "_links": {
+                  "curies": [
+                    {
+                      "name": "viaplay",
+                      "href": "http://docs.viaplay.tv/rel/{rel}",
+                      "templated": true
+                    }
+                  ],
+                  "viaplay:accountPurchasePackage": {
+                    "href": "/package?recommended=viaplay",
+                    "templated": false,
+                    "redirect": false
+                  }
+                }
+              }
+            },
+            {
+              "type": "series",
+              "publicPath": "pantbanken",
+              "content": {
+                "images": {
+                  "boxart": {
+                    "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/480/896/1603111726-3f3f044307f91ab48f1edf45f389f9d4f447dda1.jpg?width=199&height=298",
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/480/896/1603111726-3f3f044307f91ab48f1edf45f389f9d4f447dda1.jpg{?width,height}"
+                  },
+                  "landscape": {
+                    "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/480/896/1603111724-b538fcf4b18d1fbdd170d1446800e1a789563ddb.jpg?width=960&height=540",
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/480/896/1603111724-b538fcf4b18d1fbdd170d1446800e1a789563ddb.jpg{?width,height}"
+                  },
+                  "hero169": {
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/35/1000/1566475484-96214dfd5ee9e59e3ac9bd0aa95ebb7fa880ca79.jpg{?width,height}"
+                  },
+                  "coverart23": {
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/480/896/1603111726-3f3f044307f91ab48f1edf45f389f9d4f447dda1.jpg{?width,height}"
+                  },
+                  "coverart169": {
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/480/896/1603111724-b538fcf4b18d1fbdd170d1446800e1a789563ddb.jpg{?width,height}"
+                  }
+                },
+                "people": {},
+                "parentalRating": "12",
+                "series": {
+                  "title": "Pantbanken",
+                  "synopsis": "Vi får träffa de kunniga värderarna på Pantbanken Sverige. Hit kommer kunder med många olika slags föremål och vi lär oss om alltifrån värdet på föremålen till hur man avgör dess äkthet.",
+                  "season": {
+                    "title": "Pantbanken",
+                    "availability": {
+                      "svod": {
+                        "start": "2020-11-02T23:01:00.000Z",
+                        "end": "2024-11-02T23:00:00.000Z"
+                      }
+                    }
+                  },
+                  "availabilityInfo": "TIS",
+                  "seasons": 2,
+                  "seriesGuid": "series-pantbanken"
+                },
+                "synopsis": "Vi får träffa de kunniga värderarna på Pantbanken Sverige. Hit kommer kunder med många olika slags föremål och vi lär oss om alltifrån värdet på föremålen till hur man avgör dess äkthet.",
+                "production": {
+                  "year": 2019
+                }
+              },
+              "user": {
+                "starred": false
+              },
+              "system": {
+                "availability": {
+                  "start": "2019-09-16T18:00:00.000Z",
+                  "end": "2022-09-15T21:59:00.000Z",
+                  "planInfo": {
+                    "isRental": false,
+                    "isPurchase": false
+                  },
+                  "svod": {
+                    "start": "2019-09-16T18:00:00.000Z",
+                    "end": "2022-09-15T21:59:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    }
+                  }
+                },
+                "flags": [],
+                "guid": "series-pantbanken",
+                "isKids": false
+              },
+              "_links": {
+                "self": {
+                  "title": "Pantbanken",
+                  "href": "https://content.viaplay.se/pc-se/serier/pantbanken?partial=true"
+                },
+                "viaplay:page": {
+                  "title": "Pantbanken",
+                  "href": "https://content.viaplay.se/pc-se/serier/pantbanken"
+                },
+                "viaplay:templatedPage": {
+                  "title": "Pantbanken",
+                  "href": "https://content.viaplay.se/{deviceKey}/serier/pantbanken"
+                },
+                "viaplay:genres": [
+                  {
+                    "title": "Underhållning",
+                    "tagId": "99879970",
+                    "href": "https://content.viaplay.se/pc-se/serier/underhallning"
+                  }
+                ],
+                "viaplay:peopleSearch": {
+                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                  "templated": true
+                }
+              },
+              "notice": {
+                "message": "User must login to view content",
+                "code": 1002,
+                "_links": {
+                  "curies": [
+                    {
+                      "name": "viaplay",
+                      "href": "http://docs.viaplay.tv/rel/{rel}",
+                      "templated": true
+                    }
+                  ],
+                  "viaplay:accountPurchasePackage": {
+                    "href": "/package?recommended=viaplay",
+                    "templated": false,
+                    "redirect": false
+                  }
+                }
+              }
+            },
+            {
+              "type": "series",
+              "publicPath": "unga-mammor",
+              "content": {
+                "images": {
+                  "boxart": {
+                    "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/975/488/1578586867-5b51d18b921454902cfda546f79946ec5e3c8e6e.jpg?width=199&height=298",
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/975/488/1578586867-5b51d18b921454902cfda546f79946ec5e3c8e6e.jpg{?width,height}"
+                  },
+                  "landscape": {
+                    "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/975/488/1578586864-ee4cf041ae0ccd015a89e07a830955ebbe25cad0.jpg?width=960&height=540",
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/975/488/1578586864-ee4cf041ae0ccd015a89e07a830955ebbe25cad0.jpg{?width,height}"
+                  },
+                  "hero169": {
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/975/488/1578586867-f3a7794403f97bcf472db675c44bd38d4a8375ae.jpg{?width,height}"
+                  },
+                  "coverart23": {
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/975/488/1578586867-5b51d18b921454902cfda546f79946ec5e3c8e6e.jpg{?width,height}"
+                  },
+                  "coverart169": {
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/975/488/1578586864-ee4cf041ae0ccd015a89e07a830955ebbe25cad0.jpg{?width,height}"
+                  }
+                },
+                "people": {},
+                "parentalRating": "12",
+                "series": {
+                  "title": "Unga Mammor",
+                  "synopsis": "Att bli förälder är en stor upplevelse, enorm förändring och en rejäl utmaning. Följ unga mammor i deras vardag då de tar sina första steg in i vuxenlivet samtidigt som de försöker balansera att vara mamma och tonåring.",
+                  "season": {
+                    "title": "Unga Mammor",
+                    "availability": {
+                      "svod": {
+                        "start": "2020-01-14T14:00:00.000Z",
+                        "end": "2038-01-19T03:14:07.077Z"
+                      }
+                    }
+                  },
+                  "seasons": 4,
+                  "seriesGuid": "series-unga-mammor"
+                },
+                "synopsis": "Att bli förälder är en stor upplevelse, enorm förändring och en rejäl utmaning. Speciellt om du får barn redan som tonåring.",
+                "production": {
+                  "year": 2017
+                }
+              },
+              "user": {
+                "starred": false
+              },
+              "system": {
+                "availability": {
+                  "start": "2018-04-02T16:00:00.000Z",
+                  "end": "2038-01-19T03:14:07.077Z",
+                  "planInfo": {
+                    "isRental": false,
+                    "isPurchase": false
+                  },
+                  "svod": {
+                    "start": "2018-04-02T16:00:00.000Z",
+                    "end": "2038-01-19T03:14:07.077Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    }
+                  }
+                },
+                "flags": [],
+                "guid": "series-unga-mammor",
+                "isKids": false
+              },
+              "_links": {
+                "self": {
+                  "title": "Unga Mammor",
+                  "href": "https://content.viaplay.se/pc-se/serier/unga-mammor?partial=true"
+                },
+                "viaplay:page": {
+                  "title": "Unga Mammor",
+                  "href": "https://content.viaplay.se/pc-se/serier/unga-mammor"
+                },
+                "viaplay:templatedPage": {
+                  "title": "Unga Mammor",
+                  "href": "https://content.viaplay.se/{deviceKey}/serier/unga-mammor"
+                },
+                "viaplay:genres": [
+                  {
+                    "title": "Reality",
+                    "tagId": "108071975",
+                    "href": "https://content.viaplay.se/pc-se/serier/reality"
+                  }
+                ],
+                "viaplay:peopleSearch": {
+                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                  "templated": true
+                }
+              },
+              "notice": {
+                "message": "User must login to view content",
+                "code": 1002,
+                "_links": {
+                  "curies": [
+                    {
+                      "name": "viaplay",
+                      "href": "http://docs.viaplay.tv/rel/{rel}",
+                      "templated": true
+                    }
+                  ],
+                  "viaplay:accountPurchasePackage": {
+                    "href": "/package?recommended=viaplay",
+                    "templated": false,
+                    "redirect": false
+                  }
+                }
+              }
+            },
+            {
+              "type": "series",
+              "publicPath": "buffy-the-vampire-slayer",
+              "content": {
+                "images": {
+                  "boxart": {
+                    "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/497/552/Buffy_cover.jpg?width=199&height=298",
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/497/552/Buffy_cover.jpg{?width,height}"
+                  },
+                  "landscape": {
+                    "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/68/808/1572010752-f84e968461de91af83dc489585059df94016a903.jpg?width=960&height=540",
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/68/808/1572010752-f84e968461de91af83dc489585059df94016a903.jpg{?width,height}"
+                  },
+                  "hero169": {
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/68/808/1572010751-fbf705de2be0dc3b4abeb57c61d93d9216dbbe78.jpg{?width,height}"
+                  },
+                  "coverart23": {
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/497/552/Buffy_cover.jpg{?width,height}"
+                  },
+                  "coverart169": {
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/68/808/1572010752-f84e968461de91af83dc489585059df94016a903.jpg{?width,height}"
+                  }
+                },
+                "people": {
+                  "actors": [
+                    "Sarah Michelle Gellar",
+                    "Nicholas Brendon",
+                    "Alyson Hannigan",
+                    "Anthony Head",
+                    "James Marsters",
+                    "Emma Caulfield Ford",
+                    "Michelle Trachtenberg",
+                    "David Boreanaz"
+                  ],
+                  "participants": [
+                    "Sarah Michelle Gellar",
+                    "Nicholas Brendon",
+                    "Alyson Hannigan",
+                    "Anthony Head",
+                    "James Marsters",
+                    "Emma Caulfield Ford",
+                    "Michelle Trachtenberg",
+                    "David Boreanaz"
+                  ]
+                },
+                "parentalRating": "12",
+                "series": {
+                  "title": "Buffy the Vampire Slayer",
+                  "synopsis": "Buffy och hennes vänner bekämpar vampyrer och demoner samtidigt som de försöker leva normala tonårsliv - med dramatik och brustna hjärtan.",
+                  "season": {
+                    "title": "Buffy the Vampire Slayer",
+                    "availability": {
+                      "svod": {
+                        "start": "2017-03-16T19:00:00.000Z",
+                        "end": "2021-01-30T23:00:00.000Z"
+                      }
+                    }
+                  },
+                  "seasons": 7,
+                  "seriesGuid": "series-buffy-the-vampire-slayer"
+                },
+                "synopsis": "Buffy och hennes vänner bekämpar vampyrer och demoner samtidigt som de försöker leva normala tonårsliv – med dramatik och brustna hjärtan.",
+                "imdb": {
+                  "id": "tt0118276",
+                  "rating": "8.2",
+                  "votes": "128 170",
+                  "url": "http://www.imdb.com/title/tt0118276?ref_ext_viaplay"
+                },
+                "production": {
+                  "year": 1997
+                }
+              },
+              "user": {
+                "starred": false
+              },
+              "system": {
+                "availability": {
+                  "start": "2017-03-16T19:00:00.000Z",
+                  "end": "2021-01-30T23:00:00.000Z",
+                  "planInfo": {
+                    "isRental": false,
+                    "isPurchase": false
+                  },
+                  "svod": {
+                    "start": "2017-03-16T19:00:00.000Z",
+                    "end": "2021-01-30T23:00:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    }
+                  }
+                },
+                "flags": [],
+                "guid": "series-buffy-the-vampire-slayer",
+                "isKids": false
+              },
+              "_links": {
+                "self": {
+                  "title": "Buffy the Vampire Slayer",
+                  "href": "https://content.viaplay.se/pc-se/serier/buffy-the-vampire-slayer?partial=true"
+                },
+                "viaplay:page": {
+                  "title": "Buffy the Vampire Slayer",
+                  "href": "https://content.viaplay.se/pc-se/serier/buffy-the-vampire-slayer"
+                },
+                "viaplay:templatedPage": {
+                  "title": "Buffy the Vampire Slayer",
+                  "href": "https://content.viaplay.se/{deviceKey}/serier/buffy-the-vampire-slayer"
+                },
+                "viaplay:genres": [
+                  {
+                    "title": "Drama",
+                    "tagId": "98856440",
+                    "href": "https://content.viaplay.se/pc-se/serier/drama"
+                  },
+                  {
+                    "title": "Thriller",
+                    "tagId": "99368200",
+                    "href": "https://content.viaplay.se/pc-se/serier/thriller"
+                  }
+                ],
+                "viaplay:peopleSearch": {
+                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                  "templated": true
+                }
+              },
+              "notice": {
+                "message": "User must login to view content",
+                "code": 1002,
+                "_links": {
+                  "curies": [
+                    {
+                      "name": "viaplay",
+                      "href": "http://docs.viaplay.tv/rel/{rel}",
+                      "templated": true
+                    }
+                  ],
+                  "viaplay:accountPurchasePackage": {
+                    "href": "/package?recommended=viaplay",
+                    "templated": false,
+                    "redirect": false
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "_links": {
+          "self": {
+            "href": "https://content.viaplay.se/pc-se/serier/samtliga?blockId=6dd481845f73b596b7a95456c2d918e0&partial=1&pageNumber=8"
+          },
+          "next": {
+            "href": "https://content.viaplay.se/pc-se/serier/samtliga?blockId=6dd481845f73b596b7a95456c2d918e0&partial=1&pageNumber=9{&productsPerPage}",
+            "templated": true
+          },
+          "prev": {
+            "href": "https://content.viaplay.se/pc-se/serier/samtliga?blockId=6dd481845f73b596b7a95456c2d918e0&partial=1&pageNumber=7"
+          },
+          "first": {
+            "href": "https://content.viaplay.se/pc-se/serier/samtliga?blockId=6dd481845f73b596b7a95456c2d918e0&partial=1&pageNumber=1"
+          },
+          "last": {
+            "href": "https://content.viaplay.se/pc-se/serier/samtliga?blockId=6dd481845f73b596b7a95456c2d918e0&partial=1&pageNumber=54"
+          }
+        }
+      }
+    ]
+  },
+  "responseCode": {
+    "httpStatus": 200,
+    "statusCode": 200,
+    "code": 1
+  }
+}

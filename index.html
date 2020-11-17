@@ -1,0 +1,112 @@
+﻿<!DOCTYPE HTML>
+<html>
+<!-----------------------------------------
+                o       o
+                 \     /
+                  \_ _/
+            ________|_________
+            || ____________ ||
+            | {  SMART TV  }||
+            ||{____________}||
+            ||--------------||
+            ^^              ^^
+ Viapaly List Series Smart TV application  
+------------------------------------------>
+
+<head>
+    <meta charset="utf-8">
+    <title>Listing Series</title>
+    <link rel="icon" type="image/ico" href="favicon.ico">
+
+    <!-- Data Service -->
+    <script src="service/DataService.js"></script>
+
+    <!-- Main View -->
+    <script src="features/main/mainView.js"></script>
+    <script src="features/main/mainFocus.js"></script>
+    <link rel="stylesheet" href="features/main/main.css" />
+
+    <!-- List View -->
+    <script src="features/list/listView.js"></script>
+    <script src="features/list/listFocus.js"></script>
+    <link rel="stylesheet" href="features/list/list.css" />
+
+    <!-- Detail View -->
+    <script src="features/detail/detailView.js"></script>
+    <script src="features/detail/detailFocus.js"></script>
+    <link rel="stylesheet" href="features/detail/detail.css" />
+
+    <!-- Footer View -->
+    <script src="features/footer/footerView.js"></script>
+    <link rel="stylesheet" href="features/footer/footer.css" />
+
+    <!-- Splash View -->
+    <script src="features/splash/SplashView.js"></script>
+    <link rel="stylesheet" href="features/splash/splash.css" />
+
+    <!-- Utils -->
+    <script src="utils/scrollbar.js"></script>
+    <script src="utils/keycode.js"></script>
+    <script src="utils/keyEvent.js"></script>
+
+    <!-- Application -->
+    <script src="app.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Splash -->
+    <div id="splash">
+        <div class="splash_icon">
+            <div class="place_holder"><i></i> <i></i><i></i> <i></i> <i></i> </div>
+            <div id="splash_dot"> </div>
+        </div>
+    </div>
+    <!-- /Splash -->
+
+    <!-- Header -->
+    <header id='header'>
+
+        <!-- Logo -->
+        <div class="logo-viaplay">
+            <img src="assets/viaplay.svg" />
+            <span>viaplay</span>
+        </div>
+
+        <ul id='location'>
+            <li id='location-first' class='main'>Home</li>
+            <li class="arrow"></li>
+            <li id='location-next' class='sub'></li>
+        </ul>
+    </header>
+    <!-- /Header -->
+
+    <section id='ListContainer'> </section>
+    <section id="SearchContainer"> </section>
+    <section id="mainContainer"> </section>
+
+    <!-- Footer -->
+    <footer id='footer'>
+        <ul>
+            <li class="exit"> </li>
+            <li class="back"> </li>
+            <li id="HOME" class="home"> </li>
+        </ul>
+    </footer>
+    <!-- /Footer -->
+
+    <section id="detail"> </section>
+
+
+    <section id="searchMenu"> </section>
+
+    <!-- Loading -->
+    <div id="LockScreenLoader">
+        <div id="Loading"> </div>
+        <div id="LightBox"> </div>
+    </div>
+    <!-- Loading -->
+</body>
+
+</html>

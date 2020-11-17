@@ -1,0 +1,117 @@
+@charset "utf-8";
+* {
+    font-family: LG Display, LG Display_Eng_Kor, Arial, Helvetica, sans-serif;
+    list-style: none;
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 1280px;
+    height: 720px;
+    margin: 0px;
+}
+
+.logo-viaplay {
+    width: 210px;
+    display: inline-block;
+    margin: 15px 0px 0px 30px;
+}
+
+.logo-viaplay img {
+    width: 60px;
+    float: left;
+}
+
+.logo-viaplay span {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 60px;
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.bg_home_overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 668px;
+    margin: 0px;
+    -webkit-transition: .4s ease-out .0s;
+    transition: .4s ease-out .0s;
+}
+
+.MainMenu {
+    margin-top: 90px;
+}
+
+.MainMenu {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 628px;
+}
+
+.MenuContents {
+    float: right;
+    position: relative;
+    width: 50%;
+    text-align: center;
+    overflow: hidden;
+    margin: 30px 0 0;
+    height: 525px;
+}
+
+.MenuContents .active-menu {
+    background-color: #960039;
+}
+
+.menu_item_image {
+    position: absolute;
+    top: 80px;
+    left: 185px;
+    width: 280px;
+}
+
+.menu_item_normal {
+    height: 560px;
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    text-shadow: 0px -1px 1px rgba(0, 0, 0, .8);
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menu_item_title {
+    position: absolute;
+    left: -190px;
+    bottom: 100px;
+    width: 390px;
+    text-align: center;
+    background: #2a3941;
+    padding: 14px;
+}
+
+.bg_overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 670px;
+    margin: 0px;
+    background: rgb(204, 204, 204, 0.95);
+}
+
+.backButton {
+    width: 1280px;
+    height: 670px;
+    background-color: #000000;
+    opacity: 0;
+}

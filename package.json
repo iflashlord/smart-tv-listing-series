@@ -1,0 +1,24 @@
+{
+    "name": "viapaly-list-series",
+    "version": "1.0.0",
+    "description": "Viapaly List Series Smart TV application",
+    "main": "index.html",
+    "scripts": {
+        "start": "serve ./",
+        "test": "test",
+        "doc": "jsdoc -c conf.json ./ -r"
+    },
+    "keywords": [
+        "smart-tv",
+        "javascript",
+        "list",
+        "series"
+    ],
+    "author": "Behrouz Pooladrak",
+    "license": "MIT",
+    "devDependencies": {
+        "jest": "^26.6.3",
+        "jsdoc": "^3.6.6",
+        "serve": "^11.3.2"
+    }
+}

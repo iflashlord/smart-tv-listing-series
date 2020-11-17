@@ -1,0 +1,110 @@
+.about_content {}
+
+.series_content {}
+
+.scroll_long_scroll {
+    position: absolute;
+    top: 80px;
+    left: 90px;
+}
+
+.scroll_long_container,
+.scroll_long_container.about,
+.scroll_long_container.series {
+    position: absolute;
+    right: 15px;
+    top: 120px;
+    width: 1120px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.scroll_long_container.series {
+    right: 15px;
+    top: 140px;
+    width: 750px;
+    height: 450px;
+}
+
+.scroll_long_content,
+.scroll_long_content.about,
+.scroll_long_content.series {
+    width: 1020px;
+    position: absolute;
+    top: 0px;
+    font-size: 25px;
+}
+
+.scroll_long_content.series {
+    width: 720px;
+    top: 0px;
+}
+
+.backButtonBottom {
+    background: url('../../assets/btn_back_default.png') no-repeat left top;
+    position: absolute;
+    width: 1260px;
+    height: 40px;
+    top: 674px;
+    left: 20px;
+    z-index: 6;
+}
+
+.series_info_section {
+    position: absolute;
+    left: -10px;
+    top: 50px;
+}
+
+.series_cover {
+    position: absolute;
+    top: 54px;
+    left: 50px;
+    border: 8px solid #db016b;
+    margin: 0;
+    background-color: #fff;
+    background-image: url('../../assets/blank.svg');
+    background-position: center center;
+    padding: 0;
+}
+
+.series_cover img {
+    width: 365px;
+    min-height: 550px;
+    max-height: 550px;
+    display: block;
+}
+
+.series_title {
+    position: absolute;
+    top: 70px;
+    left: 480px;
+    text-transform: capitalize;
+    color: #db016b;
+    width: 760px;
+}
+
+.series_title h1 {
+    font-size: 35px;
+    text-overflow: ellipsis;
+    width: 760px;
+    height: 43px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.series_title h4 {
+    color: #555;
+}
+
+.series_imdb {
+    position: absolute;
+    top: 40px;
+    right: 60px;
+    color: #fff;
+    font-size: 17px;
+    background: #d48208;
+    display: block;
+    padding: 3px 14px;
+    border-radius: 20px;
+}
