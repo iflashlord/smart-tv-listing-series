@@ -5,7 +5,7 @@
  * have _isLocalDebug variable to manage local test
  */
 function DataService() {
-    this._isLocalDebug = true // set false in production
+    this._isLocalDebug = false // set false in production
 
     PAGE = 0
     ROWS = 10

@@ -48,7 +48,7 @@ Inside `service/DataService.js` we have a variable `_isLocalDebug` that help you
 * Support both local and remote data by proxy
 * Vertical scroll with mouse and keyboard
 * Mouse wheel as up and down button
-* 
+* Add breadcrumbs to list
 
 
 

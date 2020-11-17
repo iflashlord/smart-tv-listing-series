@@ -3,8 +3,11 @@
     "version": "1.0.0",
     "description": "Viapaly List Series Smart TV application",
     "main": "index.html",
+    "dependencies": {
+        "serve": "^11.3.2"
+    },
     "scripts": {
-        "start": "serve ./",
+        "start": "serve -s ./",
         "test": "test",
         "doc": "jsdoc -c conf.json ./ -r"
     },
