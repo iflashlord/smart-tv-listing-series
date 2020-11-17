@@ -247,5 +247,6 @@ function removeChildren(container) {
     }
 }
 
+
 // add on load event to run init function
 window.addEventListener('load', init, false)

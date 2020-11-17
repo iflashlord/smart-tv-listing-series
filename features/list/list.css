@@ -386,7 +386,7 @@ section .Contents {
 .List_item_all .list_image {
     position: relative;
     width: auto;
-    height: 254px;
+    height: 252px;
     border: 1px solid #000;
     overflow: hidden;
 }
@@ -401,7 +401,7 @@ section .Contents {
     position: relative;
     left: 0px;
     top: -42px;
-    background: rgba(76, 105, 119, 86%);
+    background: rgba(76, 105, 119, 0.86);
     height: 41px;
     line-height: 34px;
     width: 200px;

@@ -23,6 +23,7 @@ mainView.prototype.generate = function() {
         "<div class='MainMenu'>" +
         '</div>'
 
+    // loop add menus
     for (var i = 0; i < this.titles.length; i++) {
         this.addMenu(i)
     }
@@ -76,5 +77,12 @@ mainView.prototype.loadErrorHandler = function(event) {
  */
 mainView.prototype.remove = function() {
     _mainFocus.destroy()
+        // clear the page
     this.page.innerHTML = ''
+}
+
+// module.exports = mainView;
+
+exports._test = {
+    mainView
 }

@@ -25,5 +25,8 @@ jspm_packages/
 #jsdoc
 doc/
 
+#build
+dist/
+
 # mac format
 .DS_Store

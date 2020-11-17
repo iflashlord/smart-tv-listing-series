@@ -2,13 +2,37 @@
 
 
 
+#### Available online on:
+
+https://series-list-tv-app.herokuapp.com/
+
+
+
 #### Run application : 
 
-npm start
+npm run dev 
+
+
 
 #### Run tests: 
 
 npm test
+
+
+
+#### Build production: 
+
+npm build
+
+
+
+#### Run production: 
+
+npm start
+
+Note: for publish on heoku we should change `npm start` to run `dist` 
+
+
 
 #### Run auto js documentation generator: 
 
@@ -49,6 +73,10 @@ Inside `service/DataService.js` we have a variable `_isLocalDebug` that help you
 * Vertical scroll with mouse and keyboard
 * Mouse wheel as up and down button
 * Add breadcrumbs to list
+* Image placeholder
+* Images error event to replace with defualt blank
+* Two fixed and scalable view
+* Simple production build with minify
 
 
 

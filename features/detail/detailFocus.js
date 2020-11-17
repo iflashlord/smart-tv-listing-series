@@ -182,4 +182,4 @@ detailFocus.prototype.selectedHandler = function() {}
 /**
  * destroy events / intervals / etc. for the sake of the performance
  */
-listFocus.prototype.destroy = function() {}
+detailFocus.prototype.destroy = function() {}

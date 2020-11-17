@@ -7,9 +7,11 @@
         "serve": "^11.3.2"
     },
     "scripts": {
-        "start": "serve -s ./",
-        "test": "test",
-        "doc": "jsdoc -c conf.json ./ -r"
+        "dev": "serve -s ./",
+        "start": "serve -s ./dist",
+        "test": "jest",
+        "doc": "jsdoc -c conf.json ./ -r",
+        "build": "bash build.sh"
     },
     "keywords": [
         "smart-tv",
@@ -20,8 +22,15 @@
     "author": "Behrouz Pooladrak",
     "license": "MIT",
     "devDependencies": {
+        "@babel/core": "^7.9.0",
+        "@babel/preset-env": "^7.9.5",
+        "@testing-library/dom": "^7.2.1",
+        "@testing-library/jest-dom": "^5.5.0",
+        "babel-jest": "^25.3.0",
+        "browserify": "^17.0.0",
         "jest": "^26.6.3",
         "jsdoc": "^3.6.6",
+        "minify": "^6.0.1",
         "serve": "^11.3.2"
     }
 }
