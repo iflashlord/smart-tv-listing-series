@@ -18,10 +18,10 @@ cp favicon.ico dist/favicon.ico
 minify app.js > dist/app.js
 
 mkdir -p dist/assets
-cp -av assets/ dist/assets/
+cp -av assets/ dist/
 
 mkdir -p dist/json
-cp -av json/ dist/json/
+cp -av json/ dist/
 
 
 mkdir -p dist/features/detail
