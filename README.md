@@ -40,17 +40,19 @@ https://series-list-tv-app.herokuapp.com/
 
 `npm doc`
 
+**Note:** You should run this to generate the document based on the code comments. 
+
+
+
+#### Ready for development/test: 
+
+`npm i`
+
 
 
 #### General Info
 
 **Note:** The application design is base on the `1280x720` standard, but by setting `autoScale` to `true` in the `app.js` file, it automatically scaled based on the screen size. (by default, it sets to ‍`false`)
-
-
-
-#### Design 
-
-Sketch with adobe XD source and export result is available on the design directory
 
 
 
@@ -106,6 +108,34 @@ I added some code to set it to `false`, in the build automatically, but currentl
 * Images error event to replace with default blank
 * Two fixed and scalable view
 * Simple production build with minify
+
+
+
+#### Design 
+
+Sketch with adobe XD source and export result is available on the `design` directory. I should say,`application.xd` file has some simple micro interaction.
+
+##### Adobe XD
+
+`design/application.xd` 
+
+##### Exported Design
+
+``design/splash.png` 
+
+![Splash Screen](./design/splash.png)
+
+`desgin/main.png `
+
+![Main Screen](./design/main.png)
+
+`design/list.png`
+
+![List Screen](./design/list.png)
+
+`design/detail.png`
+
+![Splash Screen](./design/detail.png)
 
 
 
