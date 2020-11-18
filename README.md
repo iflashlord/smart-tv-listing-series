@@ -75,7 +75,7 @@ Having a simple page to introduce the app's main idea or about the company is ex
 With the help of npm and bash script, we have a fast and easy way to minify and make the production version ready to use.
 
 ##### Navigation:
-Scroll and Navigate with both Mouse and Keyboard; also, we have some LG remote controller support.
+Scroll and Navigate with both Mouse and Keyboard; also, we have some LG remote controller support. we are using left, right as up, down function, and mouse wheel up, down and up, down the action to improve user experiences.
 
 
 
