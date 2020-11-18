@@ -200,6 +200,12 @@ listFocus.prototype.left = function() {
 }
 
 /**
+ * other keys handler 
+ */
+listFocus.prototype.keyHandler = function() {}
+
+
+/**
  * set on complete call back and use update page method
  */
 listFocus.prototype.pageUpdate = function() {
@@ -412,3 +418,6 @@ listFocus.prototype.selectedHandler = function() {
  * destroy events / intervals / etc. for the sake of the performance
  */
 listFocus.prototype.destroy = function() {}
+
+// export to make it accessible for test
+exports._test = {}

@@ -165,7 +165,7 @@ function init() {
     window.removeEventListener('load', init, false)
 
     // define splash and add call back to run function after a loop and view splash
-    var _splash = new SplashView(dataLoadService)
+    var _splash = new splashView(dataLoadService)
     _splash.splashStart()
 }
 
@@ -182,7 +182,7 @@ function dataLoadService() {
  * on complete initials to clean up and view actions
  */
 function initCompleteHandler() {
-    _splashView = new SplashView()
+    _splashView = new splashView()
 
     // select section items on dom
     _header = document.getElementById('header')

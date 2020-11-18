@@ -3,7 +3,7 @@
  *
  * @param {function} dataLoadFunc
  */
-function SplashView(dataLoadFunc) {
+function splashView(dataLoadFunc) {
     this.splashMovementDot;
     this.intervalLoading;
     this.currentMove = 0;
@@ -15,7 +15,7 @@ function SplashView(dataLoadFunc) {
 /**
  * start interval and loading
  */
-SplashView.prototype.splashStart = function() {
+splashView.prototype.splashStart = function() {
     var target = this;
     this.splashMovementDot = document.getElementById("splash_dot");
 
@@ -27,7 +27,7 @@ SplashView.prototype.splashStart = function() {
 /**
  * move loader dot item
  */
-SplashView.prototype.move = function() {
+splashView.prototype.move = function() {
 
     if (this.currentMove == this.maxMove) {
         this.currentMove = 0;
@@ -51,6 +51,9 @@ SplashView.prototype.move = function() {
 /**
  * clear interval for performance
  */
-SplashView.prototype.splashStop = function() {
+splashView.prototype.splashStop = function() {
     clearInterval(this.intervalLoading);
 };
+
+// export to make it accessible for test
+exports._test = { splashView }

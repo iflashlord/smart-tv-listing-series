@@ -14,9 +14,17 @@ detailView.prototype.replaceTemplateImage = function(template, replaceBy, toRemo
 /**
  * generate detail view
  */
-detailView.prototype.generate = function() {
+detailView.prototype.generate = function(data) {
+    var itemData;
+    // make code testable
+    if (data) {
+        itemData = data;
+    } else {
+        itemData = dataService.data.series_list[_mainId].lists[_detailId]
+    }
+
     // get item data from data model
-    var itemData = dataService.data.series_list[_mainId].lists[_detailId]
+
     var itemContent = itemData['content'] || []
 
     // ready data to use
@@ -331,3 +339,6 @@ detailView.prototype.remove = function() {
 
     }
 }
+
+// export to make it accessible for test
+exports._test = { detailView }

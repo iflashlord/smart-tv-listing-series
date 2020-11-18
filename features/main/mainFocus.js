@@ -100,6 +100,12 @@ mainFocus.prototype.rightHandler = function() {
 }
 
 /**
+ * other keys handler 
+ */
+mainFocus.prototype.keyHandler = function() {}
+
+
+/**
  * key up as left for change menu  
  */
 mainFocus.prototype.upHandler = function() {
@@ -141,3 +147,6 @@ mainFocus.prototype.destroy = function() {
         }
     }
 }
+
+// export to make it accessible for test
+exports._test = {}

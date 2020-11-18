@@ -81,6 +81,7 @@ mainView.prototype.remove = function() {
     this.page.innerHTML = ''
 }
 
+// export to make it accessible for test
 exports._test = {
     mainView
 }

@@ -147,6 +147,11 @@ detailFocus.prototype.rightHandler = function() {
 }
 
 /**
+ * other keys handler 
+ */
+detailFocus.prototype.keyHandler = function() {}
+
+/**
  * key down handler
  */
 detailFocus.prototype.downHandler = function() {
@@ -183,3 +188,6 @@ detailFocus.prototype.selectedHandler = function() {}
  * destroy events / intervals / etc. for the sake of the performance
  */
 detailFocus.prototype.destroy = function() {}
+
+// export to make it accessible for test
+exports._test = {}

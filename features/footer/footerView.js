@@ -136,3 +136,6 @@ footerView.prototype.homeClick = function() {
         pageChange('main')
     }
 }
+
+// export to make it accessible for test
+exports._test = { footerView }

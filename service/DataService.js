@@ -233,7 +233,12 @@ DataService.prototype.updateData = function(text) {
         this.data.series_list[this.firstDepth].lists.push(listItems[i])
     }
 
+    console.log(this.data.series_list[this.firstDepth].lists)
+
     if (this.data.series_list[this.firstDepth].lists.length == this.data.series_list[this.firstDepth].total) {
         this.data.series_list[this.firstDepth].status = 'complete'
     }
 }
+
+// export to make it accessible for test
+exports._test = {}

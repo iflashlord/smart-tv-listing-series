@@ -309,3 +309,6 @@ listView.prototype.remove = function() {
         // clear the target
     listTarget.innerHTML = ''
 }
+
+// export to make it accessible for test
+exports._test = { listView }

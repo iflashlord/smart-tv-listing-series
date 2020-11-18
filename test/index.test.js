@@ -3,20 +3,16 @@ import '@testing-library/jest-dom/extend-expect'
 import { JSDOM } from 'jsdom'
 import fs from 'fs'
 import path from 'path'
-// import mainView from '../features/main/mainView'
 
 const html = fs.readFileSync(path.resolve(__dirname, '../index.html'), 'utf8');
 
 let dom
 let container
-let _mainView = require('../features/main/mainView.js');
 
 describe('index.html', () => {
     beforeEach(() => {
         dom = new JSDOM(html, { runScripts: 'dangerously' })
         container = dom.window.document.body
-
-        console.log(new _mainView._test.mainView())
     })
 
     it('renders a logo-viaplay element', () => {
@@ -31,7 +27,5 @@ describe('index.html', () => {
     it('renders splash place_holder element', () => {
         expect(container.querySelector('.place_holder')).not.toBeNull()
     })
-
-    /////////////////////////////// main View ///////////////////////////////////
 
 })
