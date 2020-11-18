@@ -1,6 +1,5 @@
 #!/bin/bash
 WORKING_DIR="dist"
-
 if [ -d "$WORKING_DIR" ]; then rm -Rf $WORKING_DIR; fi
 
 mkdir -p dist
