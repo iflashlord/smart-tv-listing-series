@@ -31,8 +31,7 @@ cp -av assets/ dist/assets/
 cp -av json/ dist/json/
 
 
-# minify ./features/splash/splashView.js > ./dist/features/splash/splashView.js
-cp ./features/splash/splashView.js ./dist/features/splash/splashView.js
+minify ./features/splash/SplashView.js > ./dist/features/splash/splashView.js
 minify ./features/splash/splash.css > ./dist/features/splash/splash.css
 
 
@@ -52,8 +51,7 @@ minify ./features/main/main.css > ./dist/features/main/main.css
 minify ./features/footer/footerView.js > ./dist/features/footer/footerView.js
 minify ./features/footer/footer.css > ./dist/features/footer/footer.css
  
-# minify ./service/dataService.js > ./dist/service/dataService.js
-cp ./service/dataService.js ./dist/service/dataService.js
+minify ./service/DataService.js > ./dist/service/dataService.js
 
 # Set debug mode on false in dataService 
 #dataservicefile="dist/service/dataService.js"
