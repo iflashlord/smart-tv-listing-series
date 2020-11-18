@@ -121,7 +121,7 @@ Sketch with adobe XD source and export result is available on the `design` direc
 
 ##### Exported Design
 
-``design/splash.png` 
+`design/splash.png` 
 
 ![Splash Screen](./design/splash.png)
 
