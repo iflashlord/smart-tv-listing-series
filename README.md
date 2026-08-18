@@ -4,7 +4,7 @@
 
 #### Available online on:
 
-https://series-list-tv-app.herokuapp.com/
+https://smart-tv-listing-series.vercel.app/
 
 
 
